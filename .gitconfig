@@ -1,5 +1,8 @@
 #git config --add include.path ../.gitconfig
+[alias]
+    co = checkout
+    st = status
+    root = rev-parse --show-toplevel
 
-git config --global --add alias.co checkout
-git config --global --add alias.st status
-git config --global --add alias.root "rev-parse --show-toplevel"
+[push]
+    default = current
