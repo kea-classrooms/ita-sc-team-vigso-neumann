@@ -1,0 +1,3 @@
+git config --global --add alias.co checkout
+git config --global --add alias.st status
+git config --global --add alias.root "rev-parse --show-toplevel"
